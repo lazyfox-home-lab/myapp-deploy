@@ -2,6 +2,6 @@ namespace: default  # Namespace, куда будет деплоиться при
 
 helm:
   releaseName: test
-  chart: ./charts/myapp
+  chart: ./charts/test
   valuesFiles:
     - ./charts/test/values.yaml
