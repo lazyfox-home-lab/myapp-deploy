@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: lazyfox80/test
-  tag: a3bf8e895acb511e1ff98f01be19e2cdf615f634
+  tag: 36ada385cf930cd3f45d5742c52f9d3305cfc349
   pullPolicy: IfNotPresent
 
 service:
