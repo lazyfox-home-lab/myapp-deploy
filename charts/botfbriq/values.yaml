@@ -1,0 +1,12 @@
+replicaCount: 1
+
+image:
+  repository: lazyfox80/botfbriq
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 8081
+
+resources: {}
