@@ -1,0 +1,6 @@
+namespace: default  # Namespace, куда будет деплоиться приложение
+helm:
+  releaseName: botfbriq
+  chart: ./charts/botfbriq
+  valuesFiles:
+    - ./charts/botfbriq/values.yaml 

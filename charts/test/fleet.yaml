@@ -1,0 +1,6 @@
+namespace: default  # Namespace, куда будет деплоиться приложение
+helm:
+  releaseName: test
+  chart: ./charts/test
+  valuesFiles:
+    - ./charts/test/values.yaml 
