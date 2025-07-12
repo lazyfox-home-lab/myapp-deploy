@@ -5,4 +5,12 @@ helm:
   chart: ./charts/test
   valuesFiles:
     - ./charts/test/values.yaml
+
+---
+namespace: default  # Namespace, куда будет деплоиться приложение
+
+helm:
+  releaseName: botfbriq
+  chart: ./charts/botfbriq
+  valuesFiles:
     - ./charts/botfbriq/values.yaml
