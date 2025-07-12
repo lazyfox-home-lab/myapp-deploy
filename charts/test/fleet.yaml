@@ -3,4 +3,4 @@ helm:
   releaseName: test
   chart: ./charts/test
   valuesFiles:
-    - ./charts/test/values.yaml 
+    - values.yaml 

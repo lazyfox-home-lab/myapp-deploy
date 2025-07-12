@@ -3,4 +3,4 @@ helm:
   releaseName: botfbriq
   chart: ./charts/botfbriq
   valuesFiles:
-    - ./charts/botfbriq/values.yaml 
+    - values.yaml 
